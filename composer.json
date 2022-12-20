@@ -14,7 +14,10 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0"
+        "php": "^7.2|^8.0",
+        "laravel/cashier": "^12.0",
+        "laravel/framework": "^7.0",
+        "pagseguro/php-sdk": "^4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0|^9.0"
