@@ -1,0 +1,50 @@
+{
+    "name": "livetechtecnologia/cashier-pagseguro",
+    "description": "Cashier PagSeguro provides an expressive, fluent interface to PagSeguro's subscription billing services.",
+    "keywords": ["laravel", "pagseguro", "billing"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/livetechtecnologia/cashier-pagseguro/issues",
+        "source": "https://github.com/livetechtecnologia/cashier-pagseguro"
+    },
+    "authors": [
+        {
+            "name": "José Frederico de Souza Silva",
+            "email": "jose@livetechtecnologia.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "suggest": {
+        "ext-intl": "Allows for more locales besides the default \"en\" when formatting money values."
+    },
+    "autoload": {
+        "psr-4": {
+            "LiveTechTecnologia\\CashierPagseguro\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "LiveTechTecnologia\\CashierPagseguro\\CashierServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
